@@ -2,12 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="public/imgs/logo.png" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>CreativeNetwork</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <!-- الخلفية  -->
+    <img class="bg" src="public/imgs/bg.png" alt="">
+    <!-- هيدر الموقع -->
+    <header>
+      <div class="TestContainer">
+      <img class="logoIco" src="public/imgs/logo.png" alt="">
+      <div class="nameTitle">
+        <h2>CreativeNetwork</h2>
+        <h3>NoName Team</h3>
+      </div>
+      <nav>
+        <a href="">الصفحة الرئيسية</a>
+        <a href="">من نحن</a>
+        <a href="">الفريق</a>
+        <a href="">الانجازات</a>
+      </nav>
+    </div>
+    </header>
+    <!-- main sect  -->
+     <section class="main">
+      <div class="m-head">
+        <div class="info">
+          <h1>اهلا بك.</h1>
+          <h3 id="demo"></h3>
+        </div>
+        <img src="public/imgs/logo.png" alt="">
+      </div>
+      <a href="">
+          <i class="ri-arrow-up-circle-fill"></i>
+          <span>الفريق</span> 
+      </a>
+     </section>
+
+     <footer>
+      <a href=""> <i class="ri-facebook-fill"></i></a>
+      <a href=""><i class="ri-instagram-fill"></i></a>
+      <a href=""> <i class="ri-youtube-fill"></i></a>
+      <a href=""> <i class="ri-twitter-x-fill"></i></a>
+     </footer>
+    <script type="module" src="src/scripts/main.js"></script>
   </body>
 </html>
