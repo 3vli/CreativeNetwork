@@ -18,16 +18,18 @@ header {
       align-items: center;
       gap: 10px;
       border-bottom:3px solid var(--main-color);
-      .logoIco {
-         width: 60px;
-         height: fit-content;
-         
+      .logoInfo {
+         display: flex;
+         .logoIco {
+            width: 60px;
+            height: fit-content;
+            
+         }
+         .nameTitle {
+            margin: 0 30px;
+            opacity: 90%;
+         }
       }
-      .nameTitle {
-         margin: 0 30px;
-         opacity: 90%;
-      }
-   
       nav{
          display: flex;
          justify-content: space-evenly;
@@ -37,15 +39,42 @@ header {
          }
          a {
             text-decoration: none;
-            font-size: 22px;
+            font-size: 18px;
             margin-right: 70px;
             opacity: 90%;
             transition: all 0.6s;
+         }
+         i {
+            display: none;
+            font-size: 32px;
+            cursor: pointer;
          }
          a:hover, a:active {
             transform: scale(1.05) translateY(-3px);
          }
       }
    
+   }
+}
+
+
+@media  (max-width: 400px) {
+   header {
+      padding: 0 2%;
+     .TestContainer {
+      justify-content: space-between;
+      .nameTitle {
+         margin: 0 0 ;
+         
+      }
+      nav {
+         a {
+            display: none;
+         }
+         i {
+            display: block;
+         }
+      }
+     }
    }
 }
