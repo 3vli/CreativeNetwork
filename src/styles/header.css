@@ -34,7 +34,7 @@ header {
       nav{
          display: flex;
          justify-content: space-evenly;
-         a:first-child {
+         .ActiveNav {
             opacity: 1;
             font-weight: 900;
          }

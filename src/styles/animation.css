@@ -1,0 +1,17 @@
+@keyframes moveHorizontally {
+   0% {
+     left: 100%;
+   }
+   100% {
+     left: -50px;
+   }
+ }
+ 
+ @keyframes moveHorizontallyr {
+   0% {
+     right: 100%;
+   }
+   100% {
+     right: -50px;
+   }
+ }
