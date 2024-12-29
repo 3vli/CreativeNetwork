@@ -10,7 +10,9 @@ function typeWriter() {
   }
 }
 typeWriter();
-const circle = document.querySelectorAll('#heroCircle');
+
+
+const circle = document.querySelector('#heroCircle');
 circle.addEventListener('animationiteration', () => {
   const randomTop = Math.random() * 100;
   circle.style.top = `${randomTop}%`;

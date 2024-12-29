@@ -15,10 +15,7 @@
 
 }
 body {
-  height: 100vh;
   overflow: hidden;
-  background-color: #f0f0f0;
-  position: relative;
 }
 :root {
   --main-color: #206B9B;
@@ -29,6 +26,21 @@ section {
   padding: 30px 12%;
 }
 
+.mainPage {
+  max-width: 1440px;
+  max-height: 1440px;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
+  .mainContainer {
+    display: block;
+  }
+}
 .main {
   padding: 0;
   margin: 20px 14%;
@@ -95,6 +107,9 @@ footer {
   }
 }
 @media (max-width: 425px) {
+  body {
+    overflow: hidden;
+  }
   .main {
     margin: 0;
     .bg {
@@ -104,7 +119,7 @@ footer {
         .resLogo {
           display: block;
           width: 200px;
-          transform: translateX(33%);
+          transform: translateX(50%);
         }
       display: grid;
       justify-content: center;
@@ -118,10 +133,11 @@ footer {
       }
     }
     a {
-      transform: translate(50%);
+      transform: translate(72%);
     }
   }
   footer {
+    justify-content: center;
     margin-top: 10px;
     padding: 0 6%;
   }

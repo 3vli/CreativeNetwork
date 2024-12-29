@@ -19,7 +19,9 @@
    --text-color: #fff;
    --secondly-color: #C0C0C0;
 }
-
+body {
+   overflow: hidden;
+}
 .about {
    width: 100%;
    display: grid;
@@ -56,5 +58,22 @@ footer {
      i {
        color: var(--main-color);
      }
+   }
+ }
+
+
+ @media (max-width: 425px) {
+    .about {
+      margin-top: 30px;
+      padding: 0 4%;
+   .info {
+
+      h3 {
+         max-width: 93%;
+      }
+   }
+   }
+   footer {
+      justify-content: center;
    }
  }
