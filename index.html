@@ -1,122 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- seo meta  -->
-    <meta
-      name="description"
-      content="CreativeNetwork منصة مبتكرة تجمع المبدعين في عالم التصميم والتطوير لتنفيذ أفكار ومشاريع مميزة. انضم إلينا لتوسيع آفاقك الإبداعية والتواصل مع محترفين في مختلف المجالات."
-    />
-    <meta
-      name="keywords"
-      content="CreativeNetwork, شبكة إبداعية, تصميم إبداعي, منصة المبدعين, مشاريع إبداعية, أفكار مبتكرة, مجتمع المبدعين, Creative Community"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta
-      property="og:title"
-      content="CreativeNetwork - منصة إبداعية تجمع المبدعين"
-    />
-    <meta
-      property="og:description"
-      content="انضم إلى CreativeNetwork لتوسيع آفاقك الإبداعية ومشاركة الأفكار والمشاريع مع محترفين من جميع أنحاء العالم."
-    />
-    <meta property="og:url" content="https://creativenetwork.vercel.app/" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="https://cdn.discordapp.com/attachments/1319731733448495194/1322236228497576057/image.png?ex=677023f2&is=676ed272&hm=ee7bd444777f8dda577f668492f111a984a1092d148b1c389bd228709191e247&"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="CreativeNetwork - منصة إبداعية تجمع المبدعين"
-    />
-    <meta
-      name="twitter:description"
-      content="تواصل مع محترفين ومبدعين وابدأ مشاريع إبداعية الآن!"
-    />
-    <meta
-      name="twitter:image"
-      content="https://cdn.discordapp.com/attachments/1319731733448495194/1322236228497576057/image.png?ex=677023f2&is=676ed272&hm=ee7bd444777f8dda577f668492f111a984a1092d148b1c389bd228709191e247&"
-    />
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/png" href="public/imgs/logo.png" />
-    <link rel="stylesheet" href="src/styles/style.css" />
-    <link rel="stylesheet" href="src/styles/header.css" />
-    <link rel="stylesheet" href="src/styles/bg.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CreativeNetwork</title>
-  </head>
-  <body>
-    <!-- الخلفية  -->
-    <div class="background">
-      <div class="background-container">
-        <div class="radial-overlay"></div>
+   <!-- css sheet links -->
+    <link rel="stylesheet" href="src/styles/index.css">
+   <title>CreativeNetwork</title>
+</head>
+<body>
+   <header>
+      <div class="container">
+         <div class="logo">
+           <h3>CreativeNetwork</h3>
+         </div>
+         <div class="nav">
+               <a class="Active" href="">الصفحة الرئيسية</a>
+               <a href="">قسم البرمجه</a>
+               <a href="">قسم التصميم</a>
+               <a href="">الفريق</a>
+               <a href="">من نحن</a>
+         </div>
+         <div class="btns">
+            <a href="">ابدا الان</a>
+            <a href="">تسجيل دخول</a>
+         </div>
       </div>
-      <div id="heroCircle" class="moving-circle"></div>
-      <div id="heroCircler" class="moving-circler"></div>
-      <div class="static-circlelb"></div>
-      <div class="static-circlerb"></div>
-    </div>
-    <!-- هيدر الموقع -->
-    <header>
-      <div class="TestContainer">
-        <div class="logoInfo">
-          <img class="logoIco" src="public/imgs/logo.png" alt="" />
-          <div class="nameTitle">
-            <h2>CreativeNetwork</h2>
-            <h3>NoName Team</h3>
-          </div>
-        </div>
-
-        <div class="navsContainer">
-          <nav>
-            <a class="ActiveNav" href="">الصفحة الرئيسية</a>
-            <a href="src/pages/about.html">من نحن</a>
-            <a href="">الفريق</a>
-            <a href="">الانجازات</a>
-            <i id="toggleMenu" class="ri-menu-line"></i>
-          </nav>
-          <nav class="sidebar">
-            <i class="ri-close-large-line" id="closeIco"></i>
-            <a class="ActiveNav" href="">الصفحة الرئيسية</a>
-            <a href="src/pages/about.html">من نحن</a>
-            <a href="">الفريق</a>
-            <a href="">الانجازات</a>
-          </nav>
-        </div>
+   </header>
+   <section class="hero">
+   <div class="container">
+      <div class="info">
+         <h1>Lorem ipsum</h1>
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eius? Numquam inventore fuga excepturi animi aspernatur nulla exercitationem veniam dolor! Suscipit delectus adipisci odit saepe ullam? Nesciunt velit sed itaque?</h3>
+         <a class="hero-btn" href="">Button</a>
       </div>
-    </header>
-    <!-- main sect  -->
-    <section class="main">
-      <div class="m-head">
-        <img class="resLogo" src="public/imgs/logo.png" alt="" />
-
-        <div class="info">
-          <h1>اهلا بك.</h1>
-          <h3 id="demo"></h3>
-        </div>
-        <div class="imgDiv">
-          <img class="currentLogo" src="public/imgs/logo.png" alt="" />
-        </div>
-      </div>
-      <a href="">
-        <i class="ri-arrow-up-circle-fill"></i>
-        <span>الفريق</span>
-      </a>
-    </section>
-
-    <footer>
-      <a href=""> <i class="ri-facebook-fill"></i></a>
-      <a href=""><i class="ri-instagram-fill"></i></a>
-      <a href=""> <i class="ri-youtube-fill"></i></a>
-      <a href=""> <i class="ri-twitter-x-fill"></i></a>
-    </footer>
-    <script type="module" src="src/scripts/main.js"></script>
-    <script type="module" src="src/scripts/animation.js"></script>
-  </body>
+   </div>
+   </section>
+</body>
 </html>
