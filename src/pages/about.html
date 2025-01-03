@@ -52,12 +52,13 @@
     <title>CreativeNetwork</title>
   </head>
   <body>
+    <!-- الخلفية  -->
     <div class="background">
       <div class="background-container">
         <div class="radial-overlay"></div>
       </div>
-      <div id="aboutCircle" class="moving-circle"></div>
-      <div id="aboutCircler" class="moving-circler"></div>
+      <div id="heroCircle" class="moving-circle"></div>
+      <div id="heroCircler" class="moving-circler"></div>
       <div class="static-circlelb"></div>
       <div class="static-circlerb"></div>
     </div>
@@ -71,20 +72,29 @@
             <h3>NoName Team</h3>
           </div>
         </div>
-        <nav>
-          <a href="../../index.html">الصفحة الرئيسية</a>
-          <a class="ActiveNav" href="">من نحن</a>
-          <a href="">الفريق</a>
-          <a href="">الانجازات</a>
-          <i class="ri-menu-line"></i>
-        </nav>
+
+        <div class="navsContainer">
+          <nav>
+            <a class="" href="../../index.html">الصفحة الرئيسية</a>
+            <a class="ActiveNav">من نحن</a>
+            <a href="">الفريق</a>
+            <a href="">الانجازات</a>
+            <i id="toggleMenu" class="ri-menu-line"></i>
+          </nav>
+          <nav class="sidebar">
+            <i class="ri-close-large-line" id="closeIco"></i>
+            <a class="ActiveNav" href="">الصفحة الرئيسية</a>
+            <a href="src/pages/about.html">من نحن</a>
+            <a href="">الفريق</a>
+            <a href="">الانجازات</a>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="about">
       <div class="info">
         <h1>من نحن؟</h1>
         <h3 id="demo">
-         
         </h3>
       </div>
     </section>

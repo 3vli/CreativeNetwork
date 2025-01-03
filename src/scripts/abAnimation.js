@@ -1,15 +1,15 @@
-const aboutCircle = document.querySelector('#aboutCircle');
+const aboutCircle = document.querySelector('#heroCircle');
 
 aboutCircle.addEventListener('animationiteration', () => {
    const randomTop = Math.random() * 100;
    aboutCircle.style.top = `${randomTop}%`;
-})
-const aboutCircler = document.querySelector('#aboutCircler');
+});
+const aboutCircler = document.querySelector('#heroCircler');
 
 aboutCircler.addEventListener('animationiteration', () => {
    const randomTop = Math.random() * 100;
    aboutCircler.style.top = `${randomTop}%`;
-})
+});
 
 let demoH3 = document.getElementById('demo');
 let txt = ` نحن فريق نونيم. لبرمجة المواقع الالكترونية، وتطويرها. وكذلك نسهم في
@@ -22,7 +22,7 @@ let i = 0;
 let typeWriter = () => {
    if (i < txt.length) {
       demoH3.innerHTML += txt.charAt(i);
-      i++
+      i++;
       setTimeout(typeWriter, speed);
 
    }

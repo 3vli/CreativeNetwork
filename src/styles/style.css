@@ -26,21 +26,6 @@ section {
   padding: 30px 12%;
 }
 
-.mainPage {
-  max-width: 1440px;
-  max-height: 1440px;
-
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
-  text-align: center;
-  justify-items: center;
-  justify-self: center;
-  .mainContainer {
-    display: block;
-  }
-}
 .main {
   padding: 0;
   margin: 20px 14%;

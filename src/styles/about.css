@@ -33,7 +33,7 @@ body {
    .info {
       border-bottom: 4px solid var(--main-color);
       padding-bottom: 50px ;
-      /* transform: translateX(-50%); */
+      min-width: 900px;
       h1 {
          font-size: 62px;
          margin-bottom: 30px;
